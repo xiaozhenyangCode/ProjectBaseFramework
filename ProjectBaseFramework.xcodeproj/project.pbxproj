@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		C8644E861EC69CF20003C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644E851EC69CF20003C6C6 /* AppDelegate.swift */; };
-		C8644E881EC69CF20003C6C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644E871EC69CF20003C6C6 /* ViewController.swift */; };
-		C8644E8B1EC69CF20003C6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8644E891EC69CF20003C6C6 /* Main.storyboard */; };
 		C8644E8D1EC69CF20003C6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8644E8C1EC69CF20003C6C6 /* Assets.xcassets */; };
 		C8644E901EC69CF20003C6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8644E8E1EC69CF20003C6C6 /* LaunchScreen.storyboard */; };
+		C8644E9F1EC69EEF0003C6C6 /* XzyNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644E9E1EC69EEF0003C6C6 /* XzyNavViewController.swift */; };
+		C8644EA61EC6A0EB0003C6C6 /* XzyBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644EA41EC6A0EB0003C6C6 /* XzyBaseViewController.swift */; };
+		C8644EA71EC6A0EB0003C6C6 /* XzyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644EA51EC6A0EB0003C6C6 /* XzyMainViewController.swift */; };
+		C8644F1C1EC6A1490003C6C6 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644EE81EC6A1490003C6C6 /* Bundle+Extensions.swift */; };
+		C8644F1F1EC6A1490003C6C6 /* UIBarButtonItem + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644EEB1EC6A1490003C6C6 /* UIBarButtonItem + Extension.swift */; };
+		C8644F201EC6A1490003C6C6 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644EEC1EC6A1490003C6C6 /* UIImage+Extension.swift */; };
+		C8644F221EC6A1490003C6C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644EEE1EC6A1490003C6C6 /* UIView+Extension.swift */; };
+		C8644F2C1EC6A27F0003C6C6 /* UIBuuton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644F2B1EC6A27F0003C6C6 /* UIBuuton+Extensions.swift */; };
+		C8644F2E1EC6A7BF0003C6C6 /* XzyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644F2D1EC6A7BF0003C6C6 /* XzyHomeViewController.swift */; };
+		C8644F301EC6A7CA0003C6C6 /* XzyDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644F2F1EC6A7CA0003C6C6 /* XzyDiscoverViewController.swift */; };
+		C8644F341EC6A7D90003C6C6 /* XzyMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644F331EC6A7D90003C6C6 /* XzyMineViewController.swift */; };
+		C8644F361EC6A81B0003C6C6 /* XzyClassificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8644F351EC6A81B0003C6C6 /* XzyClassificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8644E821EC69CF20003C6C6 /* ProjectBaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8644E851EC69CF20003C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8644E871EC69CF20003C6C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C8644E8A1EC69CF20003C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8644E8C1EC69CF20003C6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8644E851EC69CF20003C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		C8644E8C1EC69CF20003C6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		C8644E8F1EC69CF20003C6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C8644E911EC69CF20003C6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8644E911EC69CF20003C6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		C8644E9E1EC69EEF0003C6C6 /* XzyNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyNavViewController.swift; sourceTree = "<group>"; };
+		C8644EA41EC6A0EB0003C6C6 /* XzyBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyBaseViewController.swift; sourceTree = "<group>"; };
+		C8644EA51EC6A0EB0003C6C6 /* XzyMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyMainViewController.swift; sourceTree = "<group>"; };
+		C8644EE81EC6A1490003C6C6 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		C8644EEB1EC6A1490003C6C6 /* UIBarButtonItem + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem + Extension.swift"; sourceTree = "<group>"; };
+		C8644EEC1EC6A1490003C6C6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		C8644EEE1EC6A1490003C6C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C8644F2B1EC6A27F0003C6C6 /* UIBuuton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBuuton+Extensions.swift"; sourceTree = "<group>"; };
+		C8644F2D1EC6A7BF0003C6C6 /* XzyHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyHomeViewController.swift; sourceTree = "<group>"; };
+		C8644F2F1EC6A7CA0003C6C6 /* XzyDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyDiscoverViewController.swift; sourceTree = "<group>"; };
+		C8644F331EC6A7D90003C6C6 /* XzyMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyMineViewController.swift; sourceTree = "<group>"; };
+		C8644F351EC6A81B0003C6C6 /* XzyClassificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XzyClassificationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,96 @@
 		C8644E841EC69CF20003C6C6 /* ProjectBaseFramework */ = {
 			isa = PBXGroup;
 			children = (
-				C8644E851EC69CF20003C6C6 /* AppDelegate.swift */,
-				C8644E871EC69CF20003C6C6 /* ViewController.swift */,
-				C8644E891EC69CF20003C6C6 /* Main.storyboard */,
-				C8644E8C1EC69CF20003C6C6 /* Assets.xcassets */,
-				C8644E8E1EC69CF20003C6C6 /* LaunchScreen.storyboard */,
-				C8644E911EC69CF20003C6C6 /* Info.plist */,
+				C8644E971EC69EB80003C6C6 /* Classes */,
+				C8644E9D1EC69EB80003C6C6 /* Other */,
 			);
 			path = ProjectBaseFramework;
+			sourceTree = "<group>";
+		};
+		C8644E971EC69EB80003C6C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8644E9B1EC69EB80003C6C6 /* Main */,
+				C8644E9A1EC69EB80003C6C6 /* Home */,
+				C8644E981EC69EB80003C6C6 /* Classification */,
+				C8644E991EC69EB80003C6C6 /* Found */,
+				C8644E9C1EC69EB80003C6C6 /* Mine */,
+				C8644EA81EC6A1490003C6C6 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C8644E981EC69EB80003C6C6 /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				C8644F351EC6A81B0003C6C6 /* XzyClassificationController.swift */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		C8644E991EC69EB80003C6C6 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				C8644F2F1EC6A7CA0003C6C6 /* XzyDiscoverViewController.swift */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		C8644E9A1EC69EB80003C6C6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C8644F2D1EC6A7BF0003C6C6 /* XzyHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C8644E9B1EC69EB80003C6C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C8644EA41EC6A0EB0003C6C6 /* XzyBaseViewController.swift */,
+				C8644EA51EC6A0EB0003C6C6 /* XzyMainViewController.swift */,
+				C8644E9E1EC69EEF0003C6C6 /* XzyNavViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C8644E9C1EC69EB80003C6C6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C8644F331EC6A7D90003C6C6 /* XzyMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C8644E9D1EC69EB80003C6C6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C8644E851EC69CF20003C6C6 /* AppDelegate.swift */,
+				C8644E8C1EC69CF20003C6C6 /* Assets.xcassets */,
+				C8644E911EC69CF20003C6C6 /* Info.plist */,
+				C8644E8E1EC69CF20003C6C6 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C8644EA81EC6A1490003C6C6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C8644EE71EC6A1490003C6C6 /* SwiftTools */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C8644EE71EC6A1490003C6C6 /* SwiftTools */ = {
+			isa = PBXGroup;
+			children = (
+				C8644EE81EC6A1490003C6C6 /* Bundle+Extensions.swift */,
+				C8644F2B1EC6A27F0003C6C6 /* UIBuuton+Extensions.swift */,
+				C8644EEB1EC6A1490003C6C6 /* UIBarButtonItem + Extension.swift */,
+				C8644EEC1EC6A1490003C6C6 /* UIImage+Extension.swift */,
+				C8644EEE1EC6A1490003C6C6 /* UIView+Extension.swift */,
+			);
+			path = SwiftTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +228,6 @@
 			files = (
 				C8644E901EC69CF20003C6C6 /* LaunchScreen.storyboard in Resources */,
 				C8644E8D1EC69CF20003C6C6 /* Assets.xcassets in Resources */,
-				C8644E8B1EC69CF20003C6C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +238,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8644E881EC69CF20003C6C6 /* ViewController.swift in Sources */,
+				C8644F1C1EC6A1490003C6C6 /* Bundle+Extensions.swift in Sources */,
+				C8644F361EC6A81B0003C6C6 /* XzyClassificationController.swift in Sources */,
+				C8644F221EC6A1490003C6C6 /* UIView+Extension.swift in Sources */,
+				C8644F1F1EC6A1490003C6C6 /* UIBarButtonItem + Extension.swift in Sources */,
+				C8644F2E1EC6A7BF0003C6C6 /* XzyHomeViewController.swift in Sources */,
+				C8644F301EC6A7CA0003C6C6 /* XzyDiscoverViewController.swift in Sources */,
+				C8644EA61EC6A0EB0003C6C6 /* XzyBaseViewController.swift in Sources */,
+				C8644F341EC6A7D90003C6C6 /* XzyMineViewController.swift in Sources */,
+				C8644F2C1EC6A27F0003C6C6 /* UIBuuton+Extensions.swift in Sources */,
+				C8644EA71EC6A0EB0003C6C6 /* XzyMainViewController.swift in Sources */,
+				C8644E9F1EC69EEF0003C6C6 /* XzyNavViewController.swift in Sources */,
+				C8644F201EC6A1490003C6C6 /* UIImage+Extension.swift in Sources */,
 				C8644E861EC69CF20003C6C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,20 +257,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C8644E891EC69CF20003C6C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8644E8A1EC69CF20003C6C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C8644E8E1EC69CF20003C6C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C8644E8F1EC69CF20003C6C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,6 +409,7 @@
 				C8644E961EC69CF20003C6C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
